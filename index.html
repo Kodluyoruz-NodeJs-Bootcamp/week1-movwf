@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!--for scaling across various devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--set the color for the URL bar on Chrome on Android phones/tablets-->
+    <meta name="theme-color" content="#000000" />
+
+    <title>Gusto Ship</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a href="https://github.com/movwf"
+      ><img
+        loading="lazy"
+        width="149"
+        height="149"
+        src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149"
+        class="github-ribbon"
+        alt="Fork me on GitHub"
+        data-recalc-dims="1"
+    /></a>
+    <div class="bootcamp__block_container">
+      <div id="bootcamp-student-pane" class="bootcamp__left_pane"></div>
+      <div class="bootcamp__mid_pane">
+        <img
+          src="assets/img/logo/patika.png"
+          alt="Patika.dev"
+          class="patika__icon"
+        />
+        <span class="bootcamp_title">TEACHER</span>
+        <div class="bootcamp__teacher_container">
+          <img
+            src="assets/img/teacher/metin-kahveci.jpeg"
+            alt="Mehmet Hilmi"
+            class="bootcamp__teacher_image"
+          />
+        </div>
+        <span class="bootcamp_title">ASSISTANTS</span>
+        <div class="bootcamp__asistants">
+          <div class="bootcamp__assistant_container">
+            <img
+              src="assets/img/assistants/mehmetcan.jpg"
+              alt="Mehmetcan"
+              class="bootcamp__assistant_image"
+            />
+          </div>
+          <div class="bootcamp__assistant_container">
+            <img
+              src="assets/img/assistants/dogancan.webp"
+              alt="Dogancan"
+              class="bootcamp__assistant_image"
+            />
+          </div>
+          <div class="bootcamp__assistant_container">
+            <img
+              src="assets/img/assistants/kursat.jpeg"
+              alt="Kürşat"
+              class="bootcamp__assistant_image"
+            />
+          </div>
+        </div>
+        <div
+          id="learn-box"
+          class="bootcamp__learn_box"
+          ondrop="drop(event)"
+          ondragover="droppable(event)"
+        >
+          <span class="bootcamp__learn_label">DROP</span>
+          <span class="bootcamp__learn_label">TO</span>
+          <span class="bootcamp__learn_label">LEARN</span>
+          <img
+            id="bootcamp__learn-box_logo"
+            src="assets/img/logo/node.svg"
+            alt="Node.js"
+            class="bootcamp__learn_logo"
+          />
+        </div>
+      </div>
+      <div class="bootcamp__right_pane">
+        <a href="https://gusto.com/">
+          <img
+            src="assets/img/logo/gusto.svg"
+            alt="Gusto"
+            class="gusto__icon"
+          />
+        </a>
+        <a href="https://remoteteam.com/">
+          <img
+            src="assets/img/logo/remoteteam.svg"
+            alt="Remote Team"
+            class="remote-team__icon"
+          />
+        </a>
+        <span class="gusto__team_title">FUTURE TEAM</span>
+        <div id="team-container" class="gusto__team_container"></div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/students.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
