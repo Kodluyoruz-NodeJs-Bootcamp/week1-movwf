@@ -2,6 +2,8 @@
 
 This is a gusto ship that sails if every other student has defeated the great Node.js.
 
+## [Live Preview ->](http://gusto-ship.surge.sh/)
+
 > This project is built for the demonstration of the Drag and Drop API.
 
 ### Help Us to Sail this Ship ! :ship:
